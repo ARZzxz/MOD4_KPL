@@ -16,4 +16,11 @@
             storedData.Add(databaru);
             inputDates.Add(DateTime.Now);
         }
+        public void PrintAllData()
+        {
+            for (int i = 0; i < storedData.Count; i++)
+            {
+                Console.WriteLine("Data " + (i + 1) + " berisi : " + storedData[i] + " yang disimpan pada waktu UTC : " + inputDates[i] + " AM");
+            }
+        }
     }
