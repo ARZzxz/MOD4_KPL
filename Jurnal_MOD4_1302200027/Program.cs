@@ -5,9 +5,9 @@ namespace Jurnal_MOD4_1302200027
 {
     class program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            SimpleDataBase<int> data = new SimpleDataBase<double>();
+            Console.WriteLine(penjumlahan.jmlTigaAngka<int>(12, 34, 56));
 
         }
     }
@@ -15,13 +15,13 @@ namespace Jurnal_MOD4_1302200027
 
 public class penjumlahan
 {
-    public static void jmlTigaAngka<T>(T data1, T data2, T data3)
+    public static T jmlTigaAngka<T>(T data1, T data2, T data3)
     {
         dynamic angkaP = data1;
         dynamic angkaD = data2;
         dynamic angkaT = data3;
 
-        Console.WriteLine(angkaP + angkaD + angkaT + "\n");
+       return angkaP + angkaD + angkaT;
 
     }
 }
