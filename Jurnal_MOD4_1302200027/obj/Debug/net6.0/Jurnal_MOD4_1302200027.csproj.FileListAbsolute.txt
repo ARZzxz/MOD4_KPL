@@ -1,0 +1,5 @@
+C:\Users\ASUS\source\repos\MOD 4\Jurnal_MOD4_1302200027\Jurnal_MOD4_1302200027\obj\Debug\net6.0\Jurnal_MOD4_1302200027.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\MOD 4\Jurnal_MOD4_1302200027\Jurnal_MOD4_1302200027\obj\Debug\net6.0\Jurnal_MOD4_1302200027.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\MOD 4\Jurnal_MOD4_1302200027\Jurnal_MOD4_1302200027\obj\Debug\net6.0\Jurnal_MOD4_1302200027.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\MOD 4\Jurnal_MOD4_1302200027\Jurnal_MOD4_1302200027\obj\Debug\net6.0\Jurnal_MOD4_1302200027.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\MOD 4\Jurnal_MOD4_1302200027\Jurnal_MOD4_1302200027\obj\Debug\net6.0\Jurnal_MOD4_1302200027.csproj.CoreCompileInputs.cache
