@@ -1,27 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Jurnal_MOD4_1302200027
+﻿namespace Jurnal_MOD4_1302200027
 {
     class program
     {
-        public static void Main(string[] args)
+        static void Main(String[] args)
         {
-            Console.WriteLine(penjumlahan.jmlTigaAngka<int>(12, 34, 56));
-
+            SimpleDataBase<int> data = new SimpleDataBase<int>();
+            data.AddNewData(13);
+            data.AddNewData(02);
+            data.AddNewData(20);
+            data.PrintAllData();
         }
     }
 }
-
-public class penjumlahan
-{
-    public static T jmlTigaAngka<T>(T data1, T data2, T data3)
+    public class SimpleDataBase<T>
     {
-        dynamic angkaP = data1;
-        dynamic angkaD = data2;
-        dynamic angkaT = data3;
+        private List<T> storedData;
+        private List<DateTime> inputDates;
 
-       return angkaP + angkaD + angkaT;
+        public SimpleDataBase()
+        {
+            storedData = new List<T>();
+            inputDates = new List<DateTime>();
+        }
 
+        public void AddNewData(T databaru)
+        {
+            storedData.Add(databaru);
+            inputDates.Add(DateTime.Now);
+        }
+        public void PrintAllData()
+        {
+            for (int i = 0; i < storedData.Count; i++)
+            {
+                Console.WriteLine("Data " + (i + 1) + " berisi : " + storedData[i] + " yang disimpan pada waktu UTC : " + inputDates[i] + " AM");
+            }
+        }
     }
-}
