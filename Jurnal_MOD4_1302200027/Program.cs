@@ -1,5 +1,17 @@
 ﻿namespace Jurnal_MOD4_1302200027
 {
+    class program
+    {
+        static void Main(String[] args)
+        {
+            SimpleDataBase<int> data = new SimpleDataBase<int>();
+            data.AddNewData(13);
+            data.AddNewData(02);
+            data.AddNewData(20);
+            data.PrintAllData();
+        }
+    }
+}
     public class SimpleDataBase<T>
     {
         private List<T> storedData;
